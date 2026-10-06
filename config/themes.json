@@ -1,0 +1,27 @@
+{
+  "green": {
+    "primaryColor": "#286454",
+    "secondaryColor": "#d4b785",
+    "backgroundColor": "#f6f5f0"
+  },
+  "blue": {
+    "primaryColor": "#2459a6",
+    "secondaryColor": "#94b9d2",
+    "backgroundColor": "#f3f6fa"
+  },
+  "pink": {
+    "primaryColor": "#a3486b",
+    "secondaryColor": "#d6afa4",
+    "backgroundColor": "#fcf6f7"
+  },
+  "orange": {
+    "primaryColor": "#a94b21",
+    "secondaryColor": "#e7b469",
+    "backgroundColor": "#fff8f0"
+  },
+  "blackgold": {
+    "primaryColor": "#242421",
+    "secondaryColor": "#c5a36a",
+    "backgroundColor": "#f6f4ee"
+  }
+}

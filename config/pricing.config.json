@@ -1,0 +1,17 @@
+{
+  "currency": "CNY",
+  "basePrice": 699,
+  "includedPages": 5,
+  "extraPage": 100,
+  "cloudbase": 500,
+  "restApi": 800,
+  "admin": 500,
+  "booking": 300,
+  "order": 600,
+  "member": 500,
+  "points": 400,
+  "payment": 800,
+  "product": 1000,
+  "extraRevision": 100,
+  "notes": "除699基础价外均为可调整的初始估价参数；未实现模块仅需求估价，不代表可交付。云资源、认证、第三方及主体费用另计。"
+}

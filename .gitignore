@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.runtime/
+coverage/
+*.log
+.env*
+!.env.example
+project.private.config.json
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+
+# Local credentials and reproducible verification output
+.env.*
+!.env.example
+*.keystore
+*.pfx
+*.sqlite*
+*.db
+__pycache__/
+test-results/
+captures/

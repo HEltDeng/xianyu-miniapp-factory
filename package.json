@@ -1,0 +1,28 @@
+{
+  "name": "xianyu-miniapp-factory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "admin": "node admin/server.mjs",
+    "new-client": "node scripts/new-client.mjs",
+    "quote": "node scripts/quote.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "miniprogram-api-typings": "^5.2.3",
+    "pngjs": "^7.0.0",
+    "prettier": "^3.9.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0"
+  },
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.18.3"
+  }
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>Mini Program Factory · 商家工作台</title
+  ><link rel="stylesheet" href="/style.css" />
+  <body>
+    <aside>
+      <div class="brand">◇　FACTORY</div>
+      <small>商家工作台</small>
+      <nav id="nav"></nav>
+      <div class="aside-foot">
+        让每一份服务<br />井井有条。
+        <p>LOCAL WORKSPACE / 01</p>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <div>
+          <small>BUSINESS OVERVIEW</small>
+          <h1 id="heading">服务项目</h1>
+        </div>
+        <span id="mode">连接中</span>
+      </header>
+      <div class="notice" id="notice">
+        本机管理模式：数据持久化于本项目。导出目录数据后通过种子导入命令更新小程序；不会自动同步微信设备中的本地预约。
+      </div>
+      <section class="metrics">
+        <div><small>当前集合</small><strong id="count">—</strong></div>
+        <div><small>数据边界</small><strong>独立客户</strong></div>
+        <div><small>支付状态</small><strong>未开通</strong></div>
+      </section>
+      <div class="toolbar">
+        <h2>内容管理</h2>
+        <div>
+          <button id="export">导出目录数据</button
+          ><button id="new" class="primary">＋ 新增内容</button>
+        </div>
+      </div>
+      <p id="error" role="alert"></p>
+      <div class="table-wrap">
+        <table>
+          <thead id="thead"></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <dialog id="editor">
+        <form id="form">
+          <h2>编辑内容</h2>
+          <div id="fields"></div>
+          <div class="actions">
+            <button type="button" id="close">取消</button
+            ><button class="primary">保存</button>
+          </div>
+        </form>
+      </dialog>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
